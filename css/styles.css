@@ -1,0 +1,267 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color:  #434455;
+  background-color: #FFFFFF;
+}
+
+/* Header */
+.header {
+}
+
+.header__menu {
+}
+
+.header__menu-logo {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.header__menu-logo-hash {
+  color: #2e2f42;
+}
+
+.header__menu-items {
+  list-style-type: none;
+}
+
+.header__menu-item {
+}
+
+.header__menu-item-link {
+  text-decoration: none;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header__menu-item-link:hover {
+  color: #404bbf;
+}
+
+.header__menu-item-link:focus {
+  color: #404bbf;
+}
+
+.header__adress {
+    font-style: normal;
+}
+
+.header__adress-ontacts {
+  list-style-type: none;
+}
+
+.header__adress-contacts-contact {}
+
+.header__adress-contacts-contact-item {
+  text-decoration: none;
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.header__adress-contacts-contact-item:hover {
+  color: #404bbf;
+}
+
+.header__adress-contacts-contact-item:focus {
+  color: #404bbf;
+}
+
+/* Order service section */
+.order {
+  background-color: #2e2f42;
+}
+
+.order__title {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.order__btn {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  cursor: pointer;
+}
+
+.order__btn:hover {
+  background-color: #404bbf;
+}
+
+.order__btn:focus {
+  background-color: #404bbf;
+}
+
+/* About section */
+
+.about {
+}
+
+.about__title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.about__items {
+  list-style-type: none;
+}
+
+.about__items-item {
+}
+
+.about__items-item-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.about__items-item-text {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+/* Team section */
+
+.team {
+  background-color: #F4F4FD;
+}
+
+.team__title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.team__teammates {
+  list-style-type: none;
+}
+
+.team__teammate {
+  background-color: #FFFFFF;
+}
+
+.team__teammate-img {
+}
+
+.team__teammate-name {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.team__teammate-role {
+  color: #434455;
+  line-height: 24px;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/* Portfolio */
+
+.portfolio {
+}
+
+.portfolio__title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.portfolio__items {
+  list-style-type: none;
+}
+
+.portfolio__item {
+}
+
+.portfolio__item-img {
+}
+
+.portfolio__item-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.portfolio__item-text {
+  color: #434455;
+  line-height: 24px;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+/* Footer */
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer__logo {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  color: #f4f4fd;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 3%;
+}
+
+.footer__logo-hash {
+  color: #F4F4FD;
+}
+
+.footer__text {
+  color: #f4f4fd;
+  line-height: 24px;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
